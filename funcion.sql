@@ -18,7 +18,7 @@ begin
 	insert into auditoria.auditorias(esquema, tabla, idtabla, accion, antiguo, nuevo, ip, idusuario)
 	values(esquema, tabla, idtabla, accion, antiguo, nuevo, ip, usuario);
 	return;
-	--esto es una prueba
+	--prueba git hub
 end;
 $BODY$
   LANGUAGE plpgsql VOLATILE
